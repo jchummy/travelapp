@@ -10,7 +10,7 @@
 			</div>			
 			<img class="banner-image col-sm-12" src="<%= @city.banner_image %>">
 			<div class="cities-posts col-sm-12">
-				<%= @post.each do |post| %>
+				<%= @city.posts.each do |post| %>
 					<h1><%= post.title %></h1>
 					<h4><%= post.author %></h4>
 					<p><%= post.body %></p>

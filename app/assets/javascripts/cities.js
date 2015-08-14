@@ -2,11 +2,11 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
-console.log('page is connected.')
+// console.log('page is connected.')
 
-$(function(){
-	$('#city_search').typeahead({
-	name: "city",
-	remote: "/cities/autocomplete?query=%QUERY>"	
-	})
-})
+// $(function(){
+// 	$('#city_search').typeahead({
+// 	name: "city",
+// 	remote: "/cities/autocomplete?query=%QUERY>"	
+// 	})
+// })

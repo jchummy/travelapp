@@ -1,12 +1,11 @@
 c = City.create([
+	{ name: 'San Francisco', longitude: '-122.419416', latitude: '37.774929', image: 'https://gaytravel-destinations.s3.amazonaws.com/32384/golden-gate-bridge__small.jpg', banner_image: 'http://news.theregistrysf.com/wp-content/uploads/2015/06/san_francisco.jpg', bg_img: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTbOrNYQCXZJDi10OgtmnP_Sr54bNq7NkyQq-5UbtVDKOy13DxkCw'},
 	{ name: 'London', longitude: '0.1275', latitude: '51.5072', image: 'https://yt3.ggpht.com/-kwsrVRXXfgs/AAAAAAAAAAI/AAAAAAAAAAA/Uf-E4AaHe0Q/s100-c-k-no/photo.jpg'},
 	{ name: 'Bangkok', longitude: '100.5018', latitude: '13.7563', image: 'http://dn1w8s6xszn0j.cloudfront.net/media/image/c5/place-2014-10-21-10-bangkok806c67acfaafbb0d64c6f060314ba7b2.jpg'},
 	{ name: 'Paris', longitude: '2.3508', latitude: '48.8567', image: 'https://yt3.ggpht.com/-_0MzjkeWnD0/AAAAAAAAAAI/AAAAAAAAAAA/PQoDC5ZdAU8/s100-c-k-no/photo.jpg'},
 	{ name: 'Dubai', longitude: '55.2708', latitude: '25.2048', image: 'http://www.dubai-trip.net/Photos/Palm-Islands-Dubai.jpg'},
 	{ name: 'Istanbul', longitude: '28.9550', latitude: '41.0136', image: 'https://gaytravel-destinations.s3.amazonaws.com/31967/modern_istanbul_skyline__small.jpg'},
 	{ name: 'New York City', longitude: '-74.005941', latitude: '40.712784', image: 'https://radar-risk.com/wp-content/uploads/2015/02/New-York-City3-100x100.png'},
-
-	{ name: 'San Francisco', longitude: '-122.419416', latitude: '37.774929', image: 'https://gaytravel-destinations.s3.amazonaws.com/32384/golden-gate-bridge__small.jpg'},
 	{ name: 'Chicago', longitude: '-87.629798', latitude: '41.878114', image: 'http://media1.shmoop.com/media/covers/poetry/chicago-sandburg.jpg'},
 	{ name: 'Los Angeles', longitude: '-118.243685', latitude: '34.052234', image: 'http://www.ctbuh.org/Portals/0/DigArticle/452/LosAngeles100.jpg'},
 	{ name: 'Austin', longitude: '-97.743061', latitude: '30.267153', image: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRat_fvmkQfbMpOt8U3Wf3wPostfv1PMlHybCHpejJdvXImQ3su3w'},
